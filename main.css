@@ -1,0 +1,232 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definição de fontes */
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Container principal */
+.container {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilos do cabeçalho e rodapé */
+header, footer {
+    background-color: black;
+    padding-top: 12px;
+    color: rgb(46, 253, 184);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header img {
+    max-width: 90px;
+    margin-right: 20px;
+}
+
+header .container,
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+header h1 {
+    margin-right: 720px; /* Se você deseja criar uma margem à direita, defina apenas essa propriedade aqui. */
+}
+
+/* Estilos do menu de navegação */
+nav {
+    background-color: rgb(230, 201, 158);
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Estilos do ícone de menu hamburguer */
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(46, 253, 184);
+    display: block;
+    margin-bottom: 4px;
+}
+
+#carousel-imagens {
+    max-width: 100%;
+    max-height: 240px;
+    overflow: hidden; 
+}/* Adicionado para evitar rolagem lateral */
+
+/* Estilos do cabeçalho "Sobre" */
+#sobre {
+    padding: 32px;
+    background-color: beige;
+}
+
+#sobre h2 {
+    margin-top: 36px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre img {
+    max-width: 380px;
+    margin-right: 24px;
+    border-radius: 8px;
+}
+
+/* Estilos para seções */
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 14px;
+}
+
+/* Estilos para a lista de veículos */
+.veiculos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.veiculos li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+    padding: 0 1%;
+    align-items: center;
+}
+
+.veiculos li img {
+    max-width: 90%;
+    border-radius: 8px;
+}
+
+.veiculos li h3 {
+    margin: 16px 0;
+}
+
+/* Estilos para os botões e preços dos veículos */
+.item-central {
+    margin: 0 5%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: black;
+    color: rgb(46, 253, 184);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 16px 0;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.veiculos li del, .veiculos li strong {
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+}
+
+.veiculos li strong {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Estilos para as seções "Ofertas" e "Sobre" */
+#ofertas {
+    background-color: beige;
+}
+
+#contato {
+    background-color: rgb(230, 201, 158);
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: 700;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+    border-radius: 8px;
+}
+
+form {
+    width: 360px;
+    max-width: 100%; /* Adicionado para torná-lo responsivo */
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin-right: 16px; /* Adicione margem à direita para espaçamento entre os elementos. */
+}
+
+footer li img {
+    height: 32px;
+    margin-right: 22px;
+}
+
+
